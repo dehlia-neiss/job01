@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nous Contacter</title>
+    <link rel="stylesheet" href="stylec.css">
+</head>
+<body>
+    <header>
+        <h1>BloomPetals</h1>
+        <nav>
+            <p>
+                <a href="file:///C:/Users/Dehlia/OneDrive/Documents/fleuriste/index.html#">home</a>
+                <a href="file:///C:/Users/Dehlia/OneDrive/Documents/fleuriste/entreprise.html">Entreprise</a> |
+                <a href="file:///C:/Users/Dehlia/OneDrive/Documents/fleuriste/realisations.html">Réalisations</a> |
+                <a href="file:///C:/Users/Dehlia/OneDrive/Documents/fleuriste/contact.html">Contact</a>
+            </p>
+            <label for="site-search">Rechercher:</label>
+            <input type="search" id="site-search" name="q" />
+            <button>Valider</button>
+        </nav>
+    </header>
+    <h1>Nous Contacter</h1>
+    
+    <form method="post" class="contact-form">
+        <div class="form-group">
+            <label for="genre-select">Choisissez un genre:</label>
+            <select name="genre" id="genre-select">
+                <option value="">--choisissez une option--</option>
+                <option value="femme">Femme</option>
+                <option value="homme">Homme</option>
+                <option value="autres">Autres</option>
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <label for="nom">Entrez votre nom:</label>
+            <input type="text" id="nom" name="nom" required>
+        </div>
+
+        <div class="form-group">
+            <label for="prenom">Entrez votre prénom:</label>
+            <input type="text" id="prenom" name="prenom" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input id="email" name="email" type="email" placeholder="exemple@BloomPetals.com" required>
+        </div>
+
+        <div class="form-group">
+            <input type="checkbox" id="check" required>
+            <label for="check">J'accepte la politique de l'entreprise</label>
+        </div>
+
+        <input type="submit" value="Envoyer le formulaire" />
+    </form>
+</body>
+</html>
